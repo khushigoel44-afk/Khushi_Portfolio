@@ -153,6 +153,40 @@ html {
   box-shadow: 0 10px 25px rgba(0,0,0,0.25); /* expressive hover */
 }
 
+/* Education Section */
+#education {
+  background: #fff;
+  padding: 60px 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 900px; /* keeps content centered */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  text-align: center; /* centers heading */
+}
+
+#education h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: #000;
+}
+
+/* Flexbox for content alignment */
+.education-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center; /* centers horizontally */
+}
+
+.education-item {
+  max-width: 700px; /* restricts width for better readability */
+  text-align: left; /* keeps text aligned left inside the box */
+  padding: 15px;
+  border-left: 3px solid #333;
+}
+
 
 .skills-grid {
   display: grid;
@@ -186,12 +220,11 @@ html {
   margin: 0;
 }
 
-
 .project-card {
   background: #fff;
   padding: 20px;
   margin: 20px 0;
-  border-radius: 12px;
+  border-radius: 7px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
@@ -235,6 +268,11 @@ html {
     align-items: center;
 }
 
+#contact {
+    text-decoration: none;
+    color: inherit;
+}
+
 .contact-form-header {
     font-size: 2.5rem;
     font-weight: bold;
@@ -256,6 +294,10 @@ html {
     color: #333;
     border-radius: 12px;
     box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+* {
+    box-sizing: border-box;
 }
 
 /* Form side */
@@ -326,7 +368,7 @@ button:hover {
 }
 
 .info-part h3 {
-    color: #000;   /* black headings */
+    color: #000;   
 }
 
 .info-part p {
@@ -357,3 +399,44 @@ button:hover {
     }
 }
 
+.project-card {
+  background: #fff;
+  padding: 25px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  max-width: 700px;
+  text-align: center;   /* centers text and button */
+}
+
+.project-text h3 {
+  margin: 0 0 10px;
+  color: #2c3e50;
+}
+
+.project-text p {
+  margin: 0 15px 20px;
+  color: #555;
+  font-size: 16px;
+}
+
+.btn-container {
+  text-align: center;   /* ensures button stays centered */
+}
+
+.github-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #2c3e50;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.github-btn:hover {
+  background: #1a252f;
+  transform: translateY(-2px);
+}
