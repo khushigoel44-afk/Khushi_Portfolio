@@ -14,7 +14,7 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(245, 245, 245, 0.85); /* gray overlay */
+  background: rgba(245, 245, 245, 0.85); 
   z-index: -1; 
 
   /* background: url('notebook-glasses-crop-laptop-near-coffee.jpg') no-repeat center center fixed; */
@@ -23,7 +23,7 @@ body::before {
 
 html, body {
   width: 100%;
-  overflow-x: hidden;   /* stops left-right scroll */
+  overflow-x: hidden;   
 }
 
 html {
@@ -41,7 +41,7 @@ html {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    /* color: black; */
+    
 }
 
 .logo {
@@ -76,11 +76,11 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;   /* text and buttons stacked */
+  flex-direction: column;   
   text-align: center;
-  height: 100vh;            /* full screen height */
+  height: 100vh;            
 
-  color: #fff;              /* text white for contrast */
+  color: #fff;             
   position: relative;
     background-image: url("notebook-glasses-crop-laptop-near-coffee.jpg");
 
@@ -128,7 +128,7 @@ html {
   margin-bottom: 20px;
   font-size: 28px;
   color: #000;
-  text-align: center;   /* centers the heading */
+  text-align: center;   
 }
 
 .section h1,
@@ -137,20 +137,20 @@ html {
 }
 
 .about-box {
-  background: #fff;                     /* white background */
+  background: #fff;                     
   padding: 30px;
-  border-radius: 15px;                  /* rounded corners */
-  box-shadow: 0 6px 20px rgba(0,0,0,0.15); /* soft shadow */
-  max-width: 800px;                     /* limit width */
-  margin: auto auto;                       /* center the box */
+  border-radius: 15px;                  
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15); 
+  max-width: 800px;                     
+  margin: auto auto;                      
   line-height: 1.8;
-  color: #333;                          /* dark text */
+  color: #333;                          
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .about-box:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.25); /* expressive hover */
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25); 
 }
 
 /* Education Section */
@@ -159,9 +159,9 @@ html {
   padding: 60px 20px;
   margin: 20px auto;
   border-radius: 10px;
-  max-width: 900px; /* keeps content centered */
+  max-width: 900px; 
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-  text-align: center; /* centers heading */
+  text-align: center; 
 }
 
 #education h2 {
@@ -181,7 +181,7 @@ html {
 }
 
 .education-item {
-  max-width: 700px; /* restricts width for better readability */
+  max-width: 700px; 
   text-align: left; /* keeps text aligned left inside the box */
   padding: 15px;
   border-left: 3px solid #333;
@@ -209,7 +209,7 @@ html {
 }
 
 .skill-icon {
-  font-size: 50px;   /* makes the emoji big */
+  font-size: 50px;   
   display: block;
   margin-bottom: 10px;
 }
@@ -243,8 +243,8 @@ html {
   height: 250px;
   object-fit: cover;
   border-radius: 50%;
-  border: 6px solid #fffaf0;         /* matches background */
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3); /* strong expressive shadow */
+  border: 6px solid #fffaf0;         
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3); 
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
@@ -259,7 +259,6 @@ html {
     padding-top: 10%;
     padding-bottom: 3rem;
 
-    /* light gray background with subtle transparency */
     background: rgba(245, 245, 245, 0.85);
 
     display: flex;
@@ -276,12 +275,11 @@ html {
 .contact-form-header {
     font-size: 2.5rem;
     font-weight: bold;
-    color: #000;              /* black heading */
+    color: #000;             
     padding-bottom: 2rem;
     text-align: center;
 }
 
-/* White card for form + info */
 .contact-form-container {
     display: flex;
     flex-wrap: wrap;
@@ -290,7 +288,7 @@ html {
     padding: 2rem;
     gap: 2rem;
 
-    background: #fff;          /* solid white box */
+    background: #fff;          
     color: #333;
     border-radius: 12px;
     box-shadow: 0 6px 20px rgba(0,0,0,0.1);
@@ -300,7 +298,6 @@ html {
     box-sizing: border-box;
 }
 
-/* Form side */
 .form-part {
     width: 45%;
     display: flex;
@@ -308,7 +305,6 @@ html {
     padding-top: 1rem;
 }
 
-/* Input + Textarea */
 form {
     display: flex;
     flex-direction: column;
@@ -406,7 +402,7 @@ button:hover {
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   max-width: 700px;
-  text-align: center;   /* centers text and button */
+  text-align: center;  
 }
 
 .project-text h3 {
@@ -421,7 +417,7 @@ button:hover {
 }
 
 .btn-container {
-  text-align: center;   /* ensures button stays centered */
+  text-align: center;   
 }
 
 .github-btn {
@@ -439,4 +435,88 @@ button:hover {
 .github-btn:hover {
   background: #1a252f;
   transform: translateY(-2px);
+}
+
+.project-card {
+  background: #fff;
+  padding: 25px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  max-width: 700px;
+  width: 90%;             
+  text-align: center;     
+}
+
+.project-text h3 {
+  margin: 0 0 10px;
+  color: #2c3e50;
+  font-size: 1.5rem;
+}
+
+.project-text p {
+  margin: 0 15px 20px;
+  color: #555;
+  font-size: 1rem;
+}
+
+.btn-container {
+  text-align: center;
+}
+
+.github-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #2c3e50;
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.github-btn:hover {
+  background: #1a252f;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .project-card {
+    padding: 20px;
+    width: 95%;
+  }
+
+  .project-text h3 {
+    font-size: 1.3rem;
+  }
+
+  .project-text p {
+    font-size: 0.95rem;
+  }
+
+  .github-btn {
+    padding: 9px 18px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .project-card {
+    padding: 15px;
+  }
+
+  .project-text h3 {
+    font-size: 1.1rem;
+  }
+
+  .project-text p {
+    font-size: 0.9rem;
+  }
+
+  .github-btn {
+    width: 100%;         
+    padding: 10px;
+    font-size: 0.9rem;
+  }
 }
